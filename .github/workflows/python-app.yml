@@ -24,8 +24,8 @@ jobs:
         python scrap_and_summary.py --api_key ${{secrets.OPEN_API_KEY}} --organization ${{secrets.OPEN_API_ID}}
     - name: Commits
       run: |
-        git config --local user.email "ddobokki@naver.com"
-        git config --local user.name "ddobokki"
+        git config --local user.email "zihado@gmail.com"
+        git config --local user.name "seongilp"
         git add .
         git commit -m "Auto - daliy report summary"
         git push origin main
